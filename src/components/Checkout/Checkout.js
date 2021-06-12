@@ -14,7 +14,7 @@ const Checkout = () => {
     console.log(checkout);
 
     useEffect(() => {
-        fetch(`http://localhost:5000/book/${id}`)
+        fetch(`https://mighty-depths-74562.herokuapp.com/book/${id}`)
             .then(res => res.json())
             .then(data => setCheckout(data))
     }, [id])
@@ -24,7 +24,7 @@ const Checkout = () => {
         const date = (new Date().toDateString('dd/mm/yyyy'))
         const newOrder = { ...loggedInUser, ...checkout, date }
         delete newOrder._id
-        fetch('http://localhost:5000/checkout', {
+        fetch('https://mighty-depths-74562.herokuapp.com/checkout', {
             method: "POST",
             headers: {
                 'Content-Type': "Application/json"

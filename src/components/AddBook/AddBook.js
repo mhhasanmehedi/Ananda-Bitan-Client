@@ -18,7 +18,7 @@ const AddBook = () => {
             imageURL: imageURL
         };
         console.log(eventData);
-        fetch(`http://localhost:5000/addBook`, {
+        fetch(`https://mighty-depths-74562.herokuapp.com/addBook`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

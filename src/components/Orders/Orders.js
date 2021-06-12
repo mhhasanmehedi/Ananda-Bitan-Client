@@ -14,13 +14,13 @@ const Orders = () => {
     console.log(orders);
 
     useEffect(() => {
-        fetch('http://localhost:5000/orders?email=' + loggedInUser.email)
+        fetch('https://mighty-depths-74562.herokuapp.com/orders?email=' + loggedInUser.email)
             .then(res => res.json())
             .then(data => setOrders(data))
     }, [])
 
     const handleOrderCancel = (event, id) => {
-        fetch(`http://localhost:5000/cancelOrder/${id}`, {
+        fetch(`https://mighty-depths-74562.herokuapp.com/cancelOrder/${id}`, {
             method: "DELETE"
         })
             .then(res => res.json())
