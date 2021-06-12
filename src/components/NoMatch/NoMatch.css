@@ -1,0 +1,31 @@
+.noMatch-wrapper{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.noMatch-inner .content-box {
+    text-align: center;
+    border-left: 2px solid #ddd;
+    padding-left: 20px;
+}
+
+.noMatch-inner .imgBox{
+    padding-right: 20px;
+}
+.noMatch-inner{
+    border: 1px solid rgb(41, 37, 37);
+    padding: 20px;
+}
+
+.noMatch-inner h1 {
+    font-weight: 900;
+    font-size: 90px;
+}
+
+@media only screen and (max-width: 600px) {
+    .padding {
+        padding: 0 40px;
+    }
+}

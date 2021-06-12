@@ -1,0 +1,17 @@
+.logo img{
+    height:60px;
+} 
+.logo span{
+    color: white;
+    margin-left: 5px;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: white!important;
+    text-transform: uppercase;
+    margin-left: 40px;
+}

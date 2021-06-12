@@ -1,0 +1,29 @@
+.single-order-box{
+    display: flex;
+    align-items: center;
+    height: 200px;
+    box-shadow: 2px 3px 3px 3px rgba(0,0,0,0.3);
+    margin-top: 40px;
+    border-radius: 10px;
+    position: relative;
+}
+.single-order-box img{
+    height: 100%;
+}
+.content{
+    padding-left: 10px;
+}
+.content span{
+    width: 100px;
+    display: inline-block;
+}
+.content p{
+    line-height: .9;
+}
+.removeBtn{
+    position: absolute;
+    height: 20px!important;
+    right: -7px;
+    bottom: 189px;
+    cursor: pointer;
+}

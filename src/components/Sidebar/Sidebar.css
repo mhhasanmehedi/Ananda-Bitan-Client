@@ -1,0 +1,37 @@
+.sidebar-style{
+    height: 100vh;
+    width: 348px;
+    background-color:#19103F;
+    position: fixed;
+}
+.link{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    padding: 10px 90px ;
+    transition: .4s;
+}
+.link:hover{
+    background-color: #2F226A;
+}
+.link h5{
+    position: relative;
+    margin-left: 5px;
+    transition: .4s;
+}
+.link h5:hover{
+    margin-left: 15px;
+}
+.link h5::before{
+    position: absolute;
+    left: -13px;
+    bottom: 0;
+    width: 0px;
+    height: 1px;
+    content: "";
+    background-color: white;
+    transition: .4s;
+}
+.link h5:hover:before{
+    width: 15px;
+}
