@@ -39,7 +39,7 @@ const Checkout = () => {
     }
 
     return (
-        <div className="checkout shadow">
+        <div className="container checkout shadow">
             <table class="table">
                 <thead class="thead-dark">
                     <tr>

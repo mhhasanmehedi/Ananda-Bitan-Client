@@ -83,3 +83,15 @@ input[placeholder], [placeholder], *[placeholder] {
     bottom: 12px;
     background-color: black;
 }
+
+@media only screen and (max-width: 600px) {
+    .login-wrapper{
+        margin: 40px 0;
+        height: 800px;
+    }
+    .login-inner .content-box{
+        border-left: none;
+        border-top: 2px solid #ddd;
+        padding-top: 20px;
+    }
+  }

@@ -5,7 +5,7 @@ import error from '../../images/error.jpg';
 
 const NoMatch = () => {
     return (
-        <div className="noMatch-wrapper">
+        <div className="container noMatch-wrapper">
             <div className="noMatch-inner d-flex align-items-center flex-wrap">
                 <div className="imgBox">
                     <img src={error} height="300px" width="400px" alt="" />

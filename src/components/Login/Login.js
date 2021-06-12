@@ -166,7 +166,7 @@ const Login = () => {
 
 
     return (
-        <div className="login-wrapper">
+        <div className="container login-wrapper">
             <div className="login-inner d-flex flex-wrap">
                 <div className="img-box">
                     <img src={login} height="400px" alt="" />
