@@ -7,6 +7,11 @@
 - **React-Bootstrap**
 - **CSS3**
 - **Firebase Authentication**
+- **Mongodb**
+- **Express**
+- **Nodemon**
+- **React Hook Form**
+- **Material UI**
 
 
 ### `Website Link :` [https://book-shop-5c12e.web.app/](https://book-shop-5c12e.web.app/)
