@@ -3,6 +3,8 @@ import Book from '../Book/Book';
 import spinner from "../../images/loader.gif";
 import { useState } from 'react';
 import Footer from '../Footer/Footer';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
 
 const Home = () => {
@@ -16,7 +18,15 @@ const Home = () => {
     return (
         <>
             <div className="container">
-                <div className="row">
+                <div class="input-group w-50 m-auto pt-5 mb-5">
+                    <input type="text" class="form-control" placeholder="Search this blog" />
+                    <div class="input-group-append">
+                        <button class="btn btn-info" type="button">
+                            <FontAwesomeIcon icon={faSearch} />
+                        </button>
+                    </div>
+                </div>
+                <div className="row mt-5">
                     {
                         books.length > 0 ? books.map(book => <Book book={book} />)
                             :
